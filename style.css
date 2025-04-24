@@ -1,0 +1,78 @@
+body {
+  font-family: 'Georgia', serif;
+  background: linear-gradient(to right, #e0eafc, #cfdef3);
+  color: #2c3e50;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background: white;
+  padding: 2rem 3rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 600px;
+}
+
+h1 {
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  color: #34495e;
+}
+
+blockquote {
+  font-style: italic;
+  font-size: 1.2rem;
+  margin: 1.5rem 0;
+  transition: opacity 0.4s ease-in-out;
+}
+
+button {
+  padding: 0.7rem 1.5rem;
+  font-size: 1rem;
+  background-color: transparent;        /* Fond transparent */
+  color: #34495e;                       /* Texte doux et lisible */
+  border: 2px solid #34495e;            /* Bordure élégante */
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover {
+  background-color: rgba(52, 73, 94, 0.1); /* Fond doux au survol */
+  color: #2c3e50;
+}
+
+.date-citation {
+  position: absolute;
+  top: 2rem;
+  width: 100%;
+  text-align: center;
+  font-family: 'Georgia', serif;
+  font-size: 1.1rem;
+  color: #3b3b3b;
+  font-style: italic;
+}
+
+.partage {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.social-logo {
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+
+.social-logo:hover {
+  background-color: rgba(0, 0, 0, 0.05); /* effet doux au survol */
+}

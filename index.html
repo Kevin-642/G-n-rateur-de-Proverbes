@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Générateur de Proverbes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Citation du jour avec la date -->
+  <div id="date-citation" class="date-citation"></div>
+
+  <!-- Container du générateur de proverbes -->
+  <div class="container">
+    <h1>Générateur de Proverbes</h1>
+    
+    <!-- Citation du jour (qui ne change pas) -->
+    <blockquote id="citationDuJour">Chargement de la sagesse...</blockquote>
+
+    <!-- Section partage -->
+    <div class="partage">
+        <button onclick="partagerX()">
+          <img src="twitter.png" alt="Partager sur X" class="social-logo">
+        </button>
+        <button onclick="partagerFacebook()">
+          <img src="facebook.png" alt="Partager sur Facebook" class="social-logo">
+        </button>
+        <button onclick="telechargerImage()">
+          <img src="download.png" alt="Télécharger" class="social-logo">
+        </button>
+    </div>
+
+    <!-- Bouton pour générer un nouveau proverbe -->
+    <button onclick="nouveauProverbe()">Un Nouveau Proverbe</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
